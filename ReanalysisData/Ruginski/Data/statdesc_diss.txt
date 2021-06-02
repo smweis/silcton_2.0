@@ -1,0 +1,12 @@
+Variable,mean,sd,skewness,kurtosis
+SBtotal,3.8,1.01,-0.27,2.8
+GPSuse,3.4,0.94,-0.24,2.7
+MRT, NA,  NA,   NA, NA
+SOTmean, NA,  NA,   NA, NA
+WithinRtPt, NA,  NA,   NA, NA
+BetweenRtPt, NA,  NA,   NA, NA
+Distance, NA,  NA,   NA, NA
+r.2, NA,  NA,   NA, NA
+Q1,3.5,1.47, 0.40,2.8
+Q4,3.5,1.69, 1.31,4.2
+UTdist, NA,  NA,   NA, NA
