@@ -3,11 +3,11 @@
 Created on Fri Dec 11 10:49:12 2020
 
 This script imports the data (lightly cleaned by hand), then merges and cleans
-those files for easy plotting and analysis. 
+those files for easy plotting and analysis.
 
 @author: Steven Weisberg
 """
-#%% Load and do some initial data processing and cleaning. 
+#%% Load and do some initial data processing and cleaning.
 # Import necessary packages
 import pandas as pd
 import os
@@ -27,16 +27,16 @@ uf_tu_model_building['participant'] = uf_tu_model_building['participant'].astype
 
 
 # We are taking a CONSERVATIVE APPROACH at the moment. Only analyzing data we can fully account for.
-# These datasets have been somewhat cleaned by hand, eliminating rows without UUIDs. 
+# These datasets have been somewhat cleaned by hand, eliminating rows without UUIDs.
 # We are also doing the merge on the truncated UUIDs
-uf_tu_df = uf_tu_meta.merge(uf_tu_qualtrics, 
-                            left_on='Participant_UUID_Meta_Truncated', 
-                            right_on='Participant_UUID_Qualtrics_Truncated', 
+uf_tu_df = uf_tu_meta.merge(uf_tu_qualtrics,
+                            left_on='Participant_UUID_Meta_Truncated',
+                            right_on='Participant_UUID_Qualtrics_Truncated',
                             how='inner', validate='one_to_one')
 
-uf_tu_df = uf_tu_df.merge(uf_tu_dems, 
-                          left_on='Participant_UUID_Meta_Truncated', 
-                          right_on='Participant_UUID_Silcton_Truncated', 
+uf_tu_df = uf_tu_df.merge(uf_tu_dems,
+                          left_on='Participant_UUID_Meta_Truncated',
+                          right_on='Participant_UUID_Silcton_Truncated',
                           how='inner',validate='one_to_one')
 
 
@@ -88,7 +88,7 @@ def pointingCalculationBad(actual,guess):
     ## Correct the guess and actual, just in case, which were never negative.
     guess = abs(guess)
     actual = abs(actual)
-    ## Take the difference between the actual angle and the guess, taking the absolute value. 
+    ## Take the difference between the actual angle and the guess, taking the absolute value.
     diff = abs(actual - guess)
     if diff > 180:
         diff = 360-diff
@@ -130,7 +130,7 @@ original_dems['Model_Building_B'] = pd.to_numeric(original_dems['Model_Building_
 original_dems['Model_Building'] = pd.to_numeric(original_dems['Model_Building'],errors='coerce')
 
 # Rename some other columns
-original_dems.rename(columns={"Within_Pointing": "bad_pointing_coding_within", 
+original_dems.rename(columns={"Within_Pointing": "bad_pointing_coding_within",
                               "Between_Pointing": "bad_pointing_coding_between",
                               "Model_Building": "Overall_rsquared",
                               "Model_Building_A": "Batty_rsquared",
@@ -150,7 +150,7 @@ original_dems['New_or_Original'] = 'Original'
 new_merged.drop(['scratch1','scratch2','scratch3','scratch4','Participant_UUID_Meta_Raw','Participant_UUID_Alternate_Meta','DATE RUN','TIME RUN','Silcton load time','Progress','Duration_seconds','Finished','Recorded_date','PIN_TU_Only','pilot','data_share','participant_','ID_Meta','DROP','Participant_UUID_Meta','Participant_UUID_Meta_Truncated','Participant_UUID_Qualtrics','Participant_UUID_Qualtrics_Truncated','Participant_UUID_Silcton_Truncated','P_Number','Condition','Start_date','End_date','Institution','participant_y'],axis=1,inplace=True)
 
 # Rename some other columns
-new_merged.rename(columns={"Study": "Original_Study_Number", 
+new_merged.rename(columns={"Study": "Original_Study_Number",
                             "Education": "Education_Numeric",
                             "abs error_different":"good_pointing_coding_between",
                             "bad_pointing_same":"bad_pointing_coding_within",
@@ -164,7 +164,7 @@ all_merged = pd.concat([new_merged,original_dems])
 
 all_merged['Within_rsquared_average'] = (all_merged['Batty_rsquared']+ all_merged['Golledge_rsquared'])/2
 
-# A fair number of participants have model building data but nothing else. We drop them here. 
+# A fair number of participants have model building data but nothing else. We drop them here.
 all_merged = all_merged[all_merged['participant'].notna()]
 
 # Drop anyone without pointing data
