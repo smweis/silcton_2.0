@@ -134,7 +134,8 @@ original_dems.rename(columns={"Within_Pointing": "bad_pointing_coding_within",
                               "Between_Pointing": "bad_pointing_coding_between",
                               "Model_Building": "Overall_rsquared",
                               "Model_Building_A": "Batty_rsquared",
-                              "Model_Building_B": "Golledge_rsquared"}
+                              "Model_Building_B": "Golledge_rsquared",
+                              "Gender": "gender"}
                      ,inplace=True)
 
 original_dems.drop(['Participant_ID','Seen_Within','Unseen_All','Unseen_Within','Unseen_Between',

@@ -1,0 +1,57 @@
+﻿P_Number,Participant_UUID_Meta,date,Condition,participant,Age,gender,Education,Handedness,SBSOD,New_or_Original
+2,4321e207-345b-4fbe-a3e8-ec34d5066dc4,2020-08-21 04:23:00 UTC,Rep ABCD PILOT,Rep ABCD PILOT_2,24,Female,Undergraduate degree,Right,3.27,New
+4,3c9c86e0-8330-4179-8a7e-67daebea4409,2020-08-21 06:06:50 UTC,Rep ABCD PILOT,Rep ABCD PILOT_4,27,Male,High school certificate,Right,6.07,New
+5,cbf8947e-485e-492a-aba4-72fc2b83e1cc,2020-09-20 02:15:28 UTC,Rep ABCD,Rep ABCD_5,18,Female,High school certificate,Right,3.13,New
+6,f7356745-ff12-442c-be40-57aeaa2df292,2020-09-24 03:14:54 UTC,Rep ABCD,Rep ABCD_6,26,Male,Undergraduate degree,Left,5.13,New
+7,933e44da-e38f-46fb-bc1e-d66485a1ffde,2020-09-29 05:39:10 UTC,Rep ABCD,Rep ABCD_7,22,Female,Postgraduate degree,Right,4.07,New
+8,77281b6b-8778-4b66-a519-d78d1c7b2cc9,2020-10-05 03:25:19 UTC,Rep ABCD,Rep ABCD_8,18,Male,High school certificate,Left,5.8,New
+9,3f87c250-e192-4d6d-8ce3-555098b0b801,2020-10-05 05:12:58 UTC,Rep ABCD,Rep ABCD_9,19,Female,High school certificate,Right,3.93,New
+10,8c318f74-052b-4f42-8364-1da3eb29e5c5,2020-10-21 23:42:33 UTC,Rep ABCD,Rep ABCD_10,29,Female,High school certificate,Right,3.8,New
+3,cba034e1-93d4-4659-9430-f940c8af2d58,2020-09-19 07:14:11 UTC,Rep ABDC,Rep ABDC_3,20,Male,High school certificate,Right,5.4,New
+4,2618944e-4190-4772-8b81-1bbedccede63,2020-09-21 04:15:33 UTC,Rep ABDC,Rep ABDC_4,22,Female,High school certificate,Right,4.27,New
+5,2ece156b-3f60-4fcb-8f55-e18e61c4032d ,2020-09-24 01:11:26 UTC,Rep ABDC,Rep ABDC_5,20,Female,Undergraduate degree,Right,2.6,New
+6,dc3fcc47-d9ca-4ad5-a25f-c48a7ab93516,2020-10-01 00:23:37 UTC,Rep ABDC,Rep ABDC_6,21,Male,High school certificate,Right,5.53,New
+7,80de51e2-89bd-41eb-a5ff-42ba471471a1,2020-10-02 03:41:59 UTC,Rep ABDC,Rep ABDC_7,,Female,Undergraduate degree,Right,4.13,New
+8,85934af5-40d4-4951-b2eb-d5118c9a760c,2020-10-16 03:43:28 UTC,Rep ABDC,Rep ABDC_8,23,Male,Undergraduate degree,Right,4.47,New
+11,2bea1193-17dd-4eee-877c-5fed3afdd051,2020-10-19 04:45:34 UTC,Rep ABDC,Rep ABDC_11,21,Female,Trade/technical/vocational training,Right,4.33,New
+1,36653afa-f8e7-4fc9-857e-d24bb3dff796,2020-09-16 00:13:31 UTC,Rep BACD,Rep BACD_1,,Female,Postgraduate degree,Right,4.73,New
+2,cc754742-3ebc-4d73-bde8-dd51165ced3a,2020-09-23 23:14:50 UTC,Rep BACD,Rep BACD_2,24,Female,Undergraduate degree,Right,4.4,New
+3,64701dc0-cfce-4508-bf31-7b1436864fde,2020-09-28 07:16:08 UTC,Rep BACD,Rep BACD_3,18,Male,High school certificate,Right,3.93,New
+4,9b0019b7-7b72-4cca-9d01-80a29b9452e7,2020-10-05 23:36:39 UTC,Rep BACD,Rep BACD_4,21,Male,High school certificate,Right,5.07,New
+5,f9aceddb-b30c-41ed-b3ba-1d17508f4c60,2020-10-09 23:11:05 UTC,Rep BACD,Rep BACD_5,20,Female,High school certificate,Right,3.27,New
+7,a9d9d207-faf9-416c-8b4e-fe81f02e81f1,2020-10-17 04:20:14 UTC,Rep BACD,Rep BACD_7,,Male,Postgraduate degree,Right,6.13,New
+8,ecd3ba1d-eae5-49b2-adbf-6f6aff2c6263,2020-10-22 23:56:24 UTC,Rep BACD,Rep BACD_8,20,Female,High school certificate,Right,3.13,New
+6,ea667308-7e08-4824-ba91-30594ede6307,2020-09-24 23:03:44 UTC,Rep BADC,Rep BADC_6,39,Female,Postgraduate degree,Right,4.67,New
+7,3d0618d0-ac02-4688-99a2-70ba98cab070,2020-09-28 02:13:52 UTC,Rep BADC,Rep BADC_7,21,Male,Postgraduate degree,Left,3.87,New
+8,455ae013-8737-4277-9884-fbe34709bda4,2020-10-06 22:50:31 UTC,Rep BADC,Rep BADC_8,21,Female,High school certificate,Right,3.27,New
+9,58f1ae42-eb22-4863-9457-0738e0786138,2020-10-07 02:14:54 UTC,Rep BADC,Rep BADC_9,21,Male,High school certificate,Right,3.07,New
+10,ab2c0255-d40b-4bde-899f-e9c918ca3af0,2020-10-11 06:45:38 UTC,Rep BADC,Rep BADC_10,20,Female,Undergraduate degree,Right,5.27,New
+11,6001aba1-b6f9-451a-8a75-9afc9c6d8a6d,2020-10-19 23:35:53 UTC,Rep BADC,Rep BADC_11,23,Female,Undergraduate degree,Right,3.67,New
+1,4a41dd77-bc8d-4fbb-9aea-a10675c41a38,2020-08-23 02:05:15 UTC,Rev PILOT,Rev PILOT_1,25,Male,Postgraduate degree,Right,4.13,New
+2,32997be1-7cd9-45a8-a4f5-3f56abf2649d,2020-08-24 02:22:57 UTC,Rev PILOT,Rev PILOT_2,21,Female,Undergraduate degree,Right,2.33,New
+3,d56aa368-e4df-4499-a677-c2a84af419d7,2020-09-17 01:26:49 UTC,Rev,Rev_3,20,Male,High school certificate,Right,3.87,New
+4,aecea26b-1969-4933-b233-44762bd1134f,2020-09-17 03:43:06 UTC,Rev,Rev_4,21,Female,Undergraduate degree,Right,4.8,New
+5,fdf1c918-0437-4866-8f7f-fe8006dae5b3,2020-09-18 02:04:25 UTC,Rev,Rev_5,22,Female,Undergraduate degree,Right,2.53,New
+6,23eea72f-a7e3-42b7-a14b-8ab337b9cc53,2020-09-21 00:22:07 UTC,Rev,Rev_6,21,Female,Undergraduate degree,Right,4.4,New
+7,090cedbd-bde6-4cea-93fc-22009ac8e903,2020-09-21 02:17:18 UTC,Rev,Rev_7,21,Male,High school certificate,Right,6.13,New
+8,5e5993ad-2136-4e39-9112-5a2d2d0f36d2,2020-09-22 04:44:04 UTC,Rev,Rev_8,21,Female,High school certificate,Right,3.27,New
+9,eb32c1eb-c8c5-481d-b4f5-a73edbf99e86,2020-09-22 22:40:44 UTC,Rev,Rev_9,24,Female,Undergraduate degree,Right,5.47,New
+10,884637bb-5bad-4700-b63f-9f57cb6ed4e6,2020-09-25 00:53:23 UTC,Rev,Rev_10,30,Female,Undergraduate degree,Right,5.8,New
+11,6dcef3ad-c81f-4a53-bb6e-a65149e549e1,2020-09-28 22:13:45 UTC,Rev,Rev_11,24,Male,Undergraduate degree,Left,5.73,New
+12,e0576e23-8df2-4c4a-8f07-8de7490c0961,2020-09-29 04:10:42 UTC,Rev,Rev_12,29,Female,Postgraduate degree,Right,5.4,New
+14,3c501e1e-a804-4a48-9ee9-1ea5bb70b47d,2020-09-30 01:21:19 UTC,Rev,Rev_14,,Female,Undergraduate degree,Right,4,New
+15,c99d8e87-76bc-4c6e-9782-456d6b271248,2020-10-01 03:11:25 UTC,Rev,Rev_15,24,Female,High school certificate,Right,4.6,New
+16,e0e082a9-a9b7-4e9c-818f-e2456ea6599c,2020-10-02 00:12:13 UTC,Rev,Rev_16,21,Female,Undergraduate degree,Right,4.27,New
+17,d861f908-974f-4cf0-a615-e9fb830cadeb,2020-10-03 02:07:24 UTC,Rev,Rev_17,19,Female,High school certificate,Right,3.33,New
+18,3a862ade-1b94-4d1d-bb21-48d9383a43c0,2020-10-03 23:14:35 UTC,Rev,Rev_18,39,Male,Undergraduate degree,Right,4.93,New
+21,fb8db981-9e2c-4d17-84bc-e4eef46501d2,2020-10-06 05:04:10 UTC,Rev,Rev_21,23,Female,Undergraduate degree,Right,2.53,New
+22,ba9f4873-4835-437b-b939-f5ddf36a80d0,2020-10-07 00:45:30 UTC,Rev,Rev_22,21,Male,High school certificate,Right,3.6,New
+23,b025ace3-187a-496d-916d-3c9c6c63d6b0,2020-10-08 23:38:35 UTC,Rev,Rev_23,20,Male,High school certificate,Right,4.4,New
+24,24aa331f-b64c-4968-80f8-e489ca67b68e,2020-10-09 02:18:34 UTC,Rev,Rev_24,20,Male,High school certificate,Right,3.8,New
+25,daef9d6f-375b-420d-8df6-f4513b77736e,2020-10-11 03:12:29 UTC,Rev,Rev_25,38,Male,Undergraduate degree,Right,5.6,New
+27,a28984b3-5725-4a73-ade5-72d236b76447,2020-10-14 03:23:01 UTC,Rev,Rev_27,20,Female,Undergraduate degree,Right,4.6,New
+29,bb1a3cb5-a192-442b-b206-182ff0627113,2020-10-15 01:54:24 UTC,Rev,Rev_29,34,Female,Postgraduate degree,Right,2.73,New
+31,3a2963e3-16bb-48e9-be2d-8b667ce725c4,2020-10-16 02:21:29 UTC,Rev,Rev_31,21,Male,High school certificate,Right,1.8,New
+32,b88a88ea-df40-4ceb-8011-f107c8e2e1bd,2020-10-16 06:07:31 UTC,Rev,Rev_32,19,Female,High school certificate,Right,5.47,New
+33,c1593ffd-8b68-4859-8ea7-b2764cd0fff6,2020-10-16 10:13:00 UTC,Rev,Rev_33,21,Male,Undergraduate degree,Right,2.2,New
+34,83c7d37e-c379-4f96-a6d5-8c6412e8f7b0,2020-10-24 23:37:07 UTC,Rev,Rev_34,19,Female,Undergraduate degree,Left,4.87,New
